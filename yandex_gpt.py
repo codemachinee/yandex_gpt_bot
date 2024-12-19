@@ -12,7 +12,7 @@ class Davinci:
         # try:
         await self.bot.send_message(self.message.chat.id, f'секунду..')
         prompt = {
-            "modelUri": f"gpt://{yandex_gpt_catalog_id}/yandexgpt-lite",
+            "modelUri": f"gpt://{yandex_gpt_catalog_id}/yandexgpt",
             "completionOptions": {
                 "stream": False,
                 "temperature": 0.5,
