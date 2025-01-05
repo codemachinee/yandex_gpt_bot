@@ -55,7 +55,6 @@ coverage.xml
 *.log
 local_settings.py
 paswords.py
-pidor-of-the-day-af3dd140b860.json
 
 # Flask stuff:
 instance/
@@ -102,3 +101,5 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+bali.md
