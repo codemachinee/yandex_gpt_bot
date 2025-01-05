@@ -7,7 +7,7 @@ from FSM import Form_image_generation
 from handlers import check_callbacks, description_registration
 from paswords import *
 
-token = lemonade
+token = codemashine_test
 bot = Bot(token=token)
 dp = Dispatcher()
 from yandex_gpt import *
